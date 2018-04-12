@@ -1,0 +1,29 @@
+{
+  "name": "file_upload",
+  "version": "1.0.0",
+  "description": "文件上传",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "eventproxy": "^1.0.0",
+    "express": "^4.16.3",
+    "should": "^13.2.1",
+    "superagent": "^3.8.2",
+    "utility": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckygcb/file_upload.git"
+  },
+  "author": "shanlin.chi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckygcb/file_upload/issues"
+  },
+  "homepage": "https://github.com/luckygcb/file_upload#readme"
+}
