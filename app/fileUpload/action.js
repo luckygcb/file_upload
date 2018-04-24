@@ -16,7 +16,7 @@ function getFileList(req, res) {
         console.log(files);
         var fileList = [];
         files.forEach(function(filename) {
-        
+
             fileList.push({
                 name: 123
             });

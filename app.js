@@ -9,6 +9,8 @@ var app = express();
 var getFirstComment = require('./app/getFirstComment/action');
 var fileUpload = require('./app/fileUpload/action');
 
+require('./database/connectDataBase');
+require('./app/dataHelper/user');
 app.use(express.static('public'));
 
 app.get('/getFirstComment', getFirstComment.getJson);
